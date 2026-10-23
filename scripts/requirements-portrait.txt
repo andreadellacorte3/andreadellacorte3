@@ -1,0 +1,5 @@
+# portrait/card only - run locally when the photo or card text changes, not needed by the daily workflow
+pillow
+numpy
+opencv-python-headless
+rembg
