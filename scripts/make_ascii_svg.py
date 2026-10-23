@@ -23,6 +23,7 @@ RAMP = " .`:-=+*cs#%@"   # bright (sparse) -> dark (dense)
 #       ^ leading space clears the background to nothing
 
 COLS = 86
+GAMMA = 0.8  # <1 lifts mid-tones (skin) relative to highlights
 CHAR_W, LINE_H = 3.9, 7.0      # px per glyph / per row
 FONT_SIZE = 6.5
 WIDTH = 370
@@ -58,7 +59,17 @@ def to_rows(img):
     w, h = img.size
     rows = max(1, round(COLS * (CHAR_W / LINE_H) * h / w))
     small = np.array(img.convert("L").resize((COLS, rows), Image.LANCZOS)).astype(float) / 255
-    idx = ((1 - small) * len(RAMP)).astype(int).clip(0, len(RAMP) - 1)
+    if img.mode == "LA":
+        # cut-out photo: light glyphs on a dark terminal read as a positive, so bright -> dense,
+        # and the transparent background clears to spaces
+        alpha = np.array(img.getchannel("A").resize((COLS, rows), Image.LANCZOS)) / 255
+        subject = alpha > 0.5
+        lo, hi = np.percentile(small[subject], (3, 97)) if subject.any() else (0, 1)
+        small = ((small - lo) / max(hi - lo, 1e-6)).clip(0, 1)
+        density = np.where(subject, 0.08 + 0.92 * small ** GAMMA, 0)
+    else:
+        density = 1 - small
+    idx = (density * len(RAMP)).astype(int).clip(0, len(RAMP) - 1)
     lines = ["".join(RAMP[i] for i in row) for row in idx]
     while lines and not lines[0].strip():
         lines.pop(0)
