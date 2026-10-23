@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "info-card.svg"
 PORTRAIT = ROOT / "ascii-portrait.svg"
 
-USER, HOST = "andrea", "github"
+USER, HOST = "andreadellacorte3", "github"
 CONTENT = [
     ("Role", "MSc student · Italy"),
     ("Now", "MSc Transport, Infrastructure & Logistics"),
