@@ -14,18 +14,10 @@ PORTRAIT = ROOT / "ascii-portrait.svg"
 
 USER, HOST = "andrea", "github"
 CONTENT = [
-    ("OS", "Engineering Leadership · United Kingdom"),
-    ("Now", "Engineering @ Converge (ConTech, IoT sensors)"),
-    ("Prev", "Eng. leadership @ Curve (fintech)"),
-    ("Roots", "Safety-critical rail software (OTP, Train Mgmt)"),
-    ("Edu", "Univ. of Salerno · 110 cum laude"),
-    ("Stack", "Python · TypeScript · Cloudflare Workers · Hono"),
-    ("AI", "Agents · MCP servers · LangFlow · ml.institute"),
-    ("Wins", "Best Twilio Usage @ Hacking Agents '25"),
-    ("", "2x 1st place @ Open Source Game Coding Comp."),
-    ("Agile", "LeSS Practitioner · SAFe Agilist · ICAgile"),
-    ("Gives", "CoderDojo instructor · Home-Start trustee"),
-    ("Langs", "Italian · English · French"),
+    ("Role", "Engineering student"),
+    ("Uni", "TU Delft"),
+    ("Study", "Transport, Infrastructure & Logistics"),
+    ("Stack", "Python"),
 ]
 
 WIDTH = 490

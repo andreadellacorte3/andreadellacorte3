@@ -13,8 +13,4 @@
   </tr>
 </table>
 
-<br>
-
-<a href="https://www.linkedin.com/in/andreadellacorte"><img src="https://img.shields.io/badge/LinkedIn-andreadellacorte-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-
 </div>
