@@ -14,10 +14,13 @@ PORTRAIT = ROOT / "ascii-portrait.svg"
 
 USER, HOST = "andrea", "github"
 CONTENT = [
-    ("Role", "Engineering student"),
-    ("Uni", "TU Delft"),
-    ("Study", "Transport, Infrastructure & Logistics"),
-    ("Stack", "Python"),
+    ("Role", "MSc student · Italy"),
+    ("Now", "MSc Transport, Infrastructure & Logistics"),
+    ("", "TU Delft · 2025 - present"),
+    ("Prev", "BSc Industrial Engineering"),
+    ("", "Univ. of Salerno · 2021 - 2024"),
+    ("Code", "Python"),
+    ("Tools", "AutoCAD · SolidWorks · Excel · Canva"),
 ]
 
 WIDTH = 490
