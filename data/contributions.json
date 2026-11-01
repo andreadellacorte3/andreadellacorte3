@@ -1,17 +1,16 @@
 {
   "username": "andreadellacorte3",
-  "generated_at": "2026-10-31T12:25:54+00:00",
+  "generated_at": "2026-11-01T13:21:06+00:00",
   "stats": {
-    "total": 63,
-    "current_streak": 8,
-    "longest_streak": 8,
-    "active_days": 23,
+    "total": 64,
+    "current_streak": 9,
+    "longest_streak": 9,
+    "active_days": 24,
     "best_day": {
       "date": "2026-10-23",
       "count": 11
     },
     "monthly": {
-      "2025-10": 0,
       "2025-11": 0,
       "2025-12": 0,
       "2026-01": 0,
@@ -23,45 +22,11 @@
       "2026-07": 0,
       "2026-08": 0,
       "2026-09": 14,
-      "2026-10": 33
+      "2026-10": 34,
+      "2026-11": 0
     }
   },
   "days": [
-    {
-      "date": "2025-10-26",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-27",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-28",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-29",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-30",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-31",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-01",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-11-02",
       "count": 0,
@@ -1879,6 +1844,11 @@
     },
     {
       "date": "2026-10-31",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-11-01",
       "count": 0,
       "level": 0
     }
