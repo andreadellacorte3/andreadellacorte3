@@ -1,11 +1,11 @@
 {
   "username": "andreadellacorte3",
-  "generated_at": "2026-11-25T17:11:51+00:00",
+  "generated_at": "2026-11-26T16:51:59+00:00",
   "stats": {
-    "total": 99,
-    "current_streak": 33,
-    "longest_streak": 33,
-    "active_days": 48,
+    "total": 100,
+    "current_streak": 34,
+    "longest_streak": 34,
+    "active_days": 49,
     "best_day": {
       "date": "2026-10-23",
       "count": 11
@@ -23,7 +23,7 @@
       "2026-08": 0,
       "2026-09": 14,
       "2026-10": 35,
-      "2026-11": 34
+      "2026-11": 35
     }
   },
   "days": [
@@ -1864,6 +1864,11 @@
     },
     {
       "date": "2026-11-25",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-11-26",
       "count": 0,
       "level": 0
     }
